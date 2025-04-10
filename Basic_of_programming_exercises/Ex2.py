@@ -1,10 +1,10 @@
-import math #Importing Math laibrary
+import math #Importing Math laibrary.
 
-# Informed the user to choose their desire numbers with conditions
+# Informed the user to choose their desire numbers with conditions.
 print("please input variables")
 
-Hypotenuse = float(input("Hypotenuse:")) # Input for hypotenuse of the triangle
-One_side = float(input("One Side:")) # input for one side of the triangle
+Hypotenuse = float(input("Hypotenuse:")) # Input for hypotenuse of the triangle.
+One_side = float(input("One Side:")) # input for one side of the triangle.
 
 # Giving sutuable conditions
 if ((Hypotenuse > One_side) and (Hypotenuse>0 and One_side >0)) :
