@@ -15,7 +15,7 @@ elif (Hypotenuse<0 or One_side <0):
     
 elif(Hypotenuse < One_side):
     #Condition For Wrong Input:Side length is greater then Hypotenuse.
-    print("input error!  hypotenuse must be greather then side length! ")  
+    print("input error!  hypotenuse must be greather then side length!! ")  
 
     
 
