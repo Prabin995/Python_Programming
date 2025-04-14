@@ -17,4 +17,3 @@ print(y_intersect(x1=3, y1=0, x2=5, y2=4))
 print(y_intersect(x1=3, y1=0, x2=3, y2=4))
 
 #Founding result from testiong :2.75,-6.0,None for above cases
-
