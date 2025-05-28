@@ -25,11 +25,11 @@ for num in numbers:
 #Print the list and the sum.
 
 Wanted_number = int(input("How many number do you want to enter?  "))
-List = []
+num_list = []
 for i in range(Wanted_number):
     num = int(input(f" Enter number {i+1}:  "))
-    List.append(num)
+    num_list.append(num)
 
-total = sum(List)
-print("List:",List)
+total = sum(num_list)
+print("List:",num_list)
 print("sum:",total)
