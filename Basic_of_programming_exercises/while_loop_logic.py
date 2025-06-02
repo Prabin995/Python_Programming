@@ -16,4 +16,21 @@ while True:
 total = sum(num_list)
 print("Numbers entered:", num_list)
 print("Total sum:", total)
-    
+
+#Write a program that:
+#Asks the user to enter 5 numbers
+#If the number is negative, skip it using continue
+#Add only positive numbers
+#Print the list and the total sum
+
+num_list1=[]
+i=0
+while i<5:
+    number1=int(input("Enter the number:  "))
+    if number1<0:
+        continue
+    num_list1.append(number1)
+    i+=1
+total1=sum(num_list1)
+print("Numbers Entered:  ",num_list1)
+print("total sum:",total1)
