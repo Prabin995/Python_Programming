@@ -23,9 +23,10 @@ print("Total sum:", total)
 #Add only positive numbers
 #Print the list and the total sum
 
-num_list1=[]
-i=0
-while i<5:
+num_list1=[] #For append list 
+i=0 #For counting num
+while i<5: 
+    #main logic
     number1=int(input("Enter the number:  "))
     if number1<0:
         continue
