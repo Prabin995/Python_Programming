@@ -25,3 +25,4 @@ print("Reshaped to 2X3:\n",reshaped_arr)
 #Useful for generating random numbers (used in ML for sampling, initializing weights, etc.)
 rand_arr = arr.reshape(2,3) #Random float values between 0 and 1
 print("Reshaped to 2X3:\n",rand_arr)
+
