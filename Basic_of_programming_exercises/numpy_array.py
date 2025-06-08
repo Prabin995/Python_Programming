@@ -4,7 +4,7 @@ import numpy as np
 arr_1d=np.array([10,20,30,40,50])
 print("1D Array:\n ",arr_1d)
 
-# 2D Array (Like a matrix)
+# 2D Array (Like a matrix) Which is helpful for make materix and arrange data.
 arr_2d=np.array([[1,2,3],[4,5,6]])
 print("2D Array:\n",arr_2d)
 
