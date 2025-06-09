@@ -12,7 +12,7 @@ print("2D Array:\n",arr_2d)
 lin_arr=np.linspace(0, 1, 5)
 print("Linespace Array:\n",lin_arr)
 
-#np.arange(start, stop, step)
+#np.arange(start, stop, step forward)
 #Creates an array with values from start to stop-1 with a step.
 arange_arr = np.arange(0,10,2)
 print("Arange Array:\n",arange_arr )
